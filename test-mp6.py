@@ -6,8 +6,7 @@ url = 'https://u46j45y1h6.execute-api.us-east-1.amazonaws.com/prod/'
 payload = {
 			"submitterEmail": "", # <insert your coursera account email>,
 			"secret": "", # <insert your secret token from coursera>,
-			# "partId" : "G6U3L"
-			"dbApi": "https://sfb734j9r7.execute-api.us-east-1.amazonaws.com/test/mp11"
+			"dbApi": "" # insert your API Gateway Post method invoke URL
 		}
 print(json.dumps(payload))
 r = requests.post(url, data=json.dumps(payload))
