@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = 'https://ikm2evu584.execute-api.us-east-1.amazonaws.com/test/mp11-autograder'
+url = 'https://u46j45y1h6.execute-api.us-east-1.amazonaws.com/prod/'
 
 payload = {
 			"submitterEmail": "", # <insert your coursera account email>,
